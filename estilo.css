@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+}
+nav{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+}
+
+/* SECTION */
+
+section{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.hijo{
+    height: 16rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.06rem solid rgb(228, 228, 228);
+    border-radius: 0.5rem;
+}
+
+.hijo:hover{
+    border-color: rgb(88, 88, 88);
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+.hijo img{
+    height: 9rem;
+}
+
+.hijo span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(207, 207, 207);
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.muestra{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.muestra .cambio{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.muestra .cambio p{
+    color: gray;
+    font-size: 1.5rem;
+}
+.muestra .cambio p:hover{
+    color: black;
+    cursor: pointer;
+
+}
+.muestra .divuno{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.muestra img{
+    height: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+.muestra .jpg{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(65, 65, 65);
+}
+.muestra .close{
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: gray;
+}
+.muestra .close:hover{
+    color: black;
+    cursor: pointer;
+}
+.muestra .cambio p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.acceso{
+    display: flex;
+}
