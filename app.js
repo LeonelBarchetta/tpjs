@@ -28,18 +28,23 @@ PasarImagen.onclick = function () {
     switch (contenidoImagen.src){
         case "https://slrncl.com/moments/assets/img/202305-berkeley.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo.jpg"
+            contenidotexto.innerHTML= "202304-slo.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo-3.jpg"
+            contenidotexto.innerHTML= "02304-slo-3.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo-3.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo-2.jpg"
+            contenidotexto.innerHTML="202304-slo-2.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo-2.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202301-tilden.jpg"
+            contenidotexto.innerHTML= "202301-tilden.jpg" 
             break;
         case "https://slrncl.com/moments/assets/img/202301-tilden.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202305-berkeley.jpg"
+            contenidotexto.innerHTML= "202305-berkeley.jpg" 
             break;
         
     }
@@ -49,18 +54,23 @@ VolverImagen.onclick = function () {
     switch (contenidoImagen.src){
         case "https://slrncl.com/moments/assets/img/202305-berkeley.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202301-tilden.jpg"
+            contenidotexto.innerHTML= "202301-tilden.jpg" 
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202305-berkeley.jpg"
+            contenidotexto.innerHTML= "202305-berkeley.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo-3.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo.jpg"
+            contenidotexto.innerHTML= "202304-slo.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202304-slo-2.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo-3.jpg"
+            contenidotexto.innerHTML="02304-slo-3.jpg"
             break;
         case "https://slrncl.com/moments/assets/img/202301-tilden.jpg":
             contenidoImagen.src="https://slrncl.com/moments/assets/img/202304-slo-2.jpg"
+            contenidotexto.innerHTML= "202304-slo-2.jpg"
             break;
         
     }
